@@ -53,7 +53,7 @@ The generated CSVs inside `website_main/data/` were produced by `src/preprocess.
 
 2. **Compile the pipeline**
    ```bash
-   cd /Users/kartikey./Desktop/Projects/StockGraphix-1/src
+   cd /Users/deepak./Desktop/Projects/StockGraphix-1/src
    g++ -std=c++17 -O2 preprocess.cpp -o preprocess
    ```
 
@@ -77,7 +77,7 @@ The generated CSVs inside `website_main/data/` were produced by `src/preprocess.
 
 **Option A: Python http.server**
 ```bash
-cd /Users/kartikey./Desktop/Projects/StockGraphix-1/website_main
+cd /Users/deepak./Desktop/Projects/StockGraphix-1/website_main
 python3 -m http.server 8000
 ```
 Visit `http://localhost:8000`.
